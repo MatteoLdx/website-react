@@ -1,0 +1,50 @@
+#root {
+  text-align: center;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+
+nav.show-border {
+  border-bottom: 1px solid black;
+}
+
+.header {
+  padding: 8vw 10vw 10vw;
+  text-align: left;
+}
+
+.about {
+  padding: 5vw 8vw 12vw;
+}
+
+.skills {
+  padding: 5vw 0 12vw;
+}
+
+.contact {
+  padding: 4vw 0 6vw;
+}
+
+footer {
+  padding: 1.5vw 1vw;
+}
+
+.section-dark {
+  background-color: var(--background-dark);
+}
+
+.section-light {
+  background-color: var(--background-light);
+}
+
+.cross-section {
+  height: 8vw;
+  transform: rotate(-4deg);
+  margin: -4vw;
+  border: none;
+  z-index: 10;
+}

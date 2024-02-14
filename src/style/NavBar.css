@@ -1,0 +1,25 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3vw;
+}
+
+.nav-wrapper img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 9999px;
+  margin: 1vw 0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links > a {
+  padding: 1vw;
+}
+
+.nav-links > a:hover {
+  color: var(--blue);
+}

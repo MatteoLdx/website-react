@@ -1,0 +1,18 @@
+.contact-title {
+  font-size: 2rem;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  gap: max(15px, 2vw);
+  margin-top: max(30px, 5vw);
+}
+
+@media screen and (min-width: 47rem) {
+  .contacts-list {
+    flex-direction: row;
+  }
+}

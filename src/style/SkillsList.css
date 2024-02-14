@@ -1,0 +1,32 @@
+.skills-title {
+  font-size: 1.5rem;
+}
+
+.skills-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: max(50px, 5vw) 0 max(20px, 2vw);
+}
+
+.skills-list {
+  display: flex;
+  gap: 3vw 5vw;
+  max-width: 80vw;
+  margin: 20px auto;
+  place-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 47rem) {
+  .skills-title {
+    font-size: 2rem;
+  }
+
+  .skills-subtitle {
+    font-size: 1.5rem;
+  }
+
+  .skills-list {
+    max-width: 70vw;
+  }
+}

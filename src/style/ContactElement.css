@@ -1,0 +1,28 @@
+.contact-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(101, 117, 133, 0.16);
+  padding: max(10px, 1vw);
+  gap: max(10px, 1vw);
+  border-radius: 15px;
+  width: 12rem;
+}
+
+.contact-element:hover {
+  background-color: rgba(101, 117, 133, 0.3);
+}
+
+.contact-element > * {
+  flex-shrink: 0;
+}
+
+.contact-element > img {
+  height: max(20px, 2vw);
+}
+
+@media screen and (min-width: 47rem) {
+  .contact-element {
+    width: auto;
+  }
+}

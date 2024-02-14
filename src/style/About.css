@@ -1,0 +1,47 @@
+.about-title {
+  font-size: 1.5rem;
+}
+
+.about-content {
+  display: flex;
+  margin-top: 5vw;
+  align-items: center;
+}
+
+.about-left {
+  flex-basis: 100%;
+  font-size: 1rem;
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.about-left > P {
+  margin-bottom: 0.5em;
+}
+
+.about-right {
+  display: none;
+}
+
+@media screen and (min-width: 47rem) {
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-left {
+    flex-basis: 60%;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .about-right {
+    display: block;
+    flex-grow: 1;
+  }
+
+  .about-right > img {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 9999px;
+  }
+}

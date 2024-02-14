@@ -1,0 +1,32 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3vw;
+  font-size: 0.8rem;
+}
+
+.footer-license {
+  text-align: left;
+}
+
+.license {
+  display: inline-block;
+  margin-left: 0.4em;
+}
+
+.license > img {
+  height: 1.2em;
+  margin-left: 0.1875em;
+  vertical-align: text-bottom;
+}
+
+.footer-info {
+  text-align: right;
+}
+
+@media screen and (min-width: 47rem) {
+  .footer-wrapper {
+    font-size: 1rem;
+  }
+}
