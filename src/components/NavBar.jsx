@@ -1,4 +1,4 @@
-import fox from "../assets/fox.jpg";
+import fox from "../assets/fox.png";
 import "../style/NavBar.css";
 
 function NavBar() {

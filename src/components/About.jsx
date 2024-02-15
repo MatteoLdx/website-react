@@ -1,5 +1,5 @@
 import SmallDivider from "./SmallDivider";
-import fox from "../assets/fox.jpg";
+import fox from "../assets/fox.png";
 import "../style/About.css";
 
 function About() {
