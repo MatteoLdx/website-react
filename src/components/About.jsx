@@ -28,6 +28,8 @@ function About() {
           <img
             src={fox}
             alt="Logo minimaliste représentant un renard polaire devant des montagnes"
+            width="240"
+            height="240"
           />
         </div>
       </div>
